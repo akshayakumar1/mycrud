@@ -1,0 +1,14 @@
+{% extends "main.html" %}
+
+
+{% block title %}
+<title>pics</title>
+{% endblock title %}
+
+{% block body %}
+<h1>{{img.name}}</h1>
+<div class="container">
+    <img src="data:image/png;base64,{{ img }}" alt="Image" height="400" width="700"/>
+</div>
+
+{% endblock body %}
