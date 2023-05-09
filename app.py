@@ -154,4 +154,4 @@ def pic(id):
     return render_template('pic.html',img=encoded_image)
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(debug=False,host='o.o.o.o')
